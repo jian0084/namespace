@@ -14,10 +14,10 @@ var JIAN0084 = {
         document.querySelector("#boxes").appendChild(div);
         
         
-        div.addEventListener("click", function ().css({
+        div.addEventListener("click", setTimeout() {
             div.style.borderColor = "yellow";
             div.style.backgroundColor = "darkgray";
-        }, 1000))
+        }, 1000);
         div.addEventListener("mouseover", function (e) {
             e.target.classList.toggle("highlight");
         })
