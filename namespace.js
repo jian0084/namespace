@@ -22,7 +22,6 @@ var JIAN0084 = {
         div.addEventListener("click", function () {
             div.style.borderColor = "yellow";
             div.style.backgroundColor = "darkgray";
-            clearTimeout
         }, 1000)
     }
 };
