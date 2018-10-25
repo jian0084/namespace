@@ -20,8 +20,9 @@ var JIAN0084 = {
             e.target.classList.toggle("highlight");
         })
         div.addEventListener("click", function () {
-            div.style.borderColor = "blue";
-            div.style.backgroundColor = "black";
-        })
+            div.style.borderColor = "yellow";
+            div.style.backgroundColor = "darkgray";
+            clearTimeout
+        }, 1000)
     }
 };
