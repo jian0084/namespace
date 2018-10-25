@@ -14,7 +14,7 @@ var JIAN0084 = {
         document.querySelector("#boxes").appendChild(div);
         
         
-        div.addEventListener("click", setTimeout() {
+        div.addEventListener("click", function() {
             div.style.borderColor = "yellow";
             div.style.backgroundColor = "darkgray";
         }, 1000);
