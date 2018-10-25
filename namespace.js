@@ -13,11 +13,11 @@ var JIAN0084 = {
         div.className = "box";
         document.querySelector("#boxes").appendChild(div);
         
-        div.addEventListener("mouseover", function () {
-            div.classList.toggle("highlight");
+        div.addEventListener("mouseover", function (e) {
+            e.target.classList.toggle("highlight");
         })
-        div.addEventListener("mouseout", function () {
-            div.classList.toggle("highlight");
+        div.addEventListener("mouseout", function (e) {
+            e.target.classList.toggle("highlight");
         })
         div.addEventListener("click", function () {
             div.style.borderColor = "blue";
