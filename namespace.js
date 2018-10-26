@@ -17,7 +17,7 @@ var JIAN0084 = {
         div.addEventListener("click", function () {
             div.style.borderColor = "yellow";
             div.style.backgroundColor = "darkgray";
-        }, 1000);
+        });
 
 //        div.addEventListener("click", setTimeout(function () {
 //            div.style.borderColor = "yellow";
@@ -29,6 +29,7 @@ var JIAN0084 = {
         })
         div.addEventListener("mouseout", function (e) {
             e.target.classList.toggle("highlight");
+            div.removeAttribute("style");
         })
 
     }
